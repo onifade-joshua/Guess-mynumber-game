@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: inherit;
+}
+
+body {
+    color: #eee;
+    background-color: #222;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    position: relative;
+    height: 35vh;
+    border-bottom: 7px solid #eee;
+}
+
+main {
+    height: 65vh;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left {
+    width: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px;
+}
+
+.right {
+    width: 52rem;
+    font-size: 2rem;
+    padding: 3px;
+    width: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.number {
+    background-color: #eee;
+    color: #333;
+    font-size: 8rem;
+    width: 15rem;
+    padding: 3rem 0rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    height: 10vh;
+    padding-top: 4px;
+}
+
+.between {
+    font-size: 3rem;
+    text-align: right;
+}
+
+.btn.again {
+    font-size: 2rem;
+    width: 8rem;
+    height: 9vh;
+    padding-top: 5px;
+}
+
+.btn.check {
+    font-size: 2rem;
+    width: 8rem;
+    padding: 5px;
+    margin: 5px;
+    height: 9vh;
+}
+
+.guess {
+    font-size: 3rem;
+    height: 20vh;
+    width: 20rem;
+    margin: 4px;
+    padding: 3px;
+}
+
+.label-score {
+    font-size: 2rem;
+    padding-top: 5px;
+}
+
+.label-highscore {
+    font-size: 2rem;
+}
+
+.message {
+    height: 25vh;
+    margin: 4px;
+    padding: 3px;
+}
